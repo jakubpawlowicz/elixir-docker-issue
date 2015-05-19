@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: mix phoenix.server
+  ports:
+    - '4000:4000'
+  volumes:
+    - test:/app/test
